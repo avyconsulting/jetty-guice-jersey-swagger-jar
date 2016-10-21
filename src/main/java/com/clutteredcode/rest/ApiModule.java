@@ -39,7 +39,7 @@ public class ApiModule extends ServletModule {
         BeanConfig beanConfig = new BeanConfig();
         beanConfig.setVersion("1.0.0-SNAPSHOT");
         beanConfig.setSchemes(new String[]{"http"});
-        beanConfig.setTitle("UIM Topology Gateway Alarm API");
+        beanConfig.setTitle("Todo API");
         beanConfig.setHost("localhost:8080");
         beanConfig.setBasePath("/api");
         beanConfig.setResourcePackage("com.clutteredcode.rest.resource");
