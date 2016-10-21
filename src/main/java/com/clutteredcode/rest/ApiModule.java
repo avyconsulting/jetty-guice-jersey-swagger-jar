@@ -1,8 +1,8 @@
 package com.clutteredcode.rest;
 
 import com.clutteredcode.rest.filter.CrossOriginResourceSharingFilter;
-import com.clutteredcode.rest.servlet.SwaggerBootstrap;
 import com.clutteredcode.rest.servlet.ApiApplication;
+import com.clutteredcode.rest.servlet.SwaggerBootstrap;
 import com.google.inject.servlet.ServletModule;
 import io.swagger.jaxrs.config.BeanConfig;
 import org.glassfish.jersey.servlet.ServletContainer;
